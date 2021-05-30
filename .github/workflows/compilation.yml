@@ -53,7 +53,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        docker_owner: [ps2dev, fjtrujy]
+        docker_owner: [ps2dev]
 
     container: ${{ matrix.docker_owner }}/ps2dev:latest
     steps:
@@ -85,7 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        docker_owner: [ps2dev, fjtrujy]
+        docker_owner: [ps2dev]
 
     steps:
     - uses: actions/checkout@v2
