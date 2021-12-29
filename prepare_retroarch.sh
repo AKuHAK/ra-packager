@@ -5,7 +5,7 @@
 PROC_NR=$(getconf _NPROCESSORS_ONLN)
 
 ## Download the source code.
-REPO_URL="https://github.com/libretro/RetroArch.git"
+REPO_URL="https://github.com/AKuHAK/RetroArch.git"
 REPO_FOLDER="RetroArch"
 BRANCH_NAME="video-test"
 if test ! -d "$REPO_FOLDER"; then
